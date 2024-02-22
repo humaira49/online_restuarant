@@ -1,0 +1,359 @@
+#menu a{color: black;
+		text-decoration: none;
+		word-spacing: 18;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		margin-left: 20px;
+		font-weight:bold;
+		z-index: 4;
+		opacity: 1;
+}
+body{ padding: 1px;
+margin: 10px;
+width: 100%;
+height: 100%;
+background-image: url("img/Cook.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+height: 93vh;
+}
+#h1p{color: black;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+position: absolute;
+top:150px;
+left:15px;
+z-index: 1;}
+
+#design{height: 500px;
+width: 600px;
+background: yellow;
+border-radius: 50%;
+position: absolute;
+top:35px;
+margin-left:-271px;
+box-shadow: 63px 36px 175px -60px yellow;}
+
+input{position:absolute;
+top:280px;
+left:25px;
+height: 40px;
+width: 250px;
+border:none;
+border-radius: 15px;
+padding-left: 20px;
+box-shadow: 1px 1px 40px -4px rgb(0,0,0);}
+
+#okbtn{background: #e91e63;
+height: 27px;
+width: 60px;
+border-radius: 10px;
+position: absolute;
+top: 286px;
+left: 210px;
+border:none ;
+color: white;}
+
+#menu a:hover{border-bottom: 1px solid #e91e63;
+color:red;}
+
+#signin{background: #e91e63;
+height: 34px;
+width: 110px;
+border-radius: 19px;
+position: absolute;
+top:350px;
+left: 150px;
+border: none;
+color: white;}
+#skip{background: #ffffff;
+height: 34px;
+width: 110px;
+border-radius: 19px;
+position: absolute;
+top:350px;
+left: 25px;
+border: none;
+color:black;}
+
+.foods
+{
+    width: 100%;
+    margin-top:  700px;
+}
+.foods h2 
+{
+    text-align: center;
+    margin: 30px 0;
+}
+.foods .chawkat 
+{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: #aaa solid 1px;
+}
+.foods .row
+{
+    flex-basis: 35%;
+    min-width: 350px;
+    margin: 10px;
+    width: 100%; 
+    display: flex;
+    border: #aaa solid 1px;
+}
+.foods .row .col img 
+{
+    width: 100%;
+    height: 100%;
+}
+.foods .row .col 
+{
+    flex-basis: 25%;
+    min-width: 150px;
+    height: 180px;
+    position: relative;
+}
+.foods .row .info
+{
+    flex-basis: 45%;
+    min-width: 150px;
+}
+.foods .row .col  .shadow2
+{
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.082);
+    position: absolute;
+    top: 0px;
+}
+.foods .row .col  .shadow2 h4 
+{
+    margin-top: 130px;
+    width: 70%;
+    padding: 5px 0;
+    text-align: center;
+    background:#e91e63;
+    color: #fff;
+}
+.foods .row .info h4
+{
+    color: #ff7700;
+    margin: 10px 0 10px 10px;
+
+}
+.foods .row .info h4 span 
+{
+    font-size: 13px;
+    color: #111;
+}
+.foods .row .info p
+{
+    width: 100%;
+    margin: 10px;
+}
+
+.foods .row .info button
+{
+    color: black;
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 40px 25px 10px;
+    background:yellow;
+    
+}
+.contact
+{
+    width: 100%;
+}
+.contact h2 
+{
+    text-align: center;
+    margin: 40px 0;
+}
+.contact .row
+{
+    max-width: 800px;
+    margin:30px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact .row img 
+{
+    width: 250px;
+    height: 350px;
+
+}
+.contact .row .col
+{
+    flex: 50%;
+    text-align: center;
+
+}
+.contact .row .col1
+{
+    flex: 50%;
+    background:pink;
+    height: 330px;
+}
+.contact .row .col1 form
+{
+    width: 95%;
+    padding: 10px;
+    margin:10p auto;
+    border: #aaa solid 1px;
+    position: relative;
+}
+.contact .row .col1 .inp1
+{
+    width: 100%;
+    height: 50px;
+   
+}
+.contact .row .col1 .inp1 .tx1 
+{
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    width: 150px;
+    margin-left: 0px;
+    border-bottom:1px #aaa solid ;
+    background: none;
+    color: white;
+    position: relative;
+    top:40px;
+    box-shadow: none;
+}
+.contact .row .col1  .tx2 
+{
+    width: 85%;
+    margin: auto;
+    margin-left: 0px;
+    padding-left: 0px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom:1px #aaa solid ;
+    background: none;
+    color: #fff;
+    position: relative;
+    top: 50px;
+    box-shadow: none;
+}
+.contact .row .col1 textarea 
+{
+    width: 90%;
+    margin:10px auto;
+    margin-left: 10px;
+    padding-left: 10px;
+    height: 80px;
+    border: none;
+    outline: none;
+    border-bottom:1px #aaa solid ;
+    background: none;
+    color: #fff;
+    position: absolute;
+}
+.contact .row .col1 button
+{
+    width: 99%;
+    margin-top: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #e91e63;
+    color: #fff;
+}
+.contact .row .col1 button:hover
+{
+    background: #d67b2b;
+    transition: 0.6s;
+}
+
+.footer 
+{
+    background:pink;
+    width: 100%;
+    height: 150px;
+}
+.footer .row 
+{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.footer .row .col 
+{
+    flex-basis: 50%;
+ 
+    
+}
+.footer  .row .logo 
+{
+    display: flex;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+.footer  .row .logo .name
+{
+  color: #e91e63;
+  font-size: 20px;
+}
+.footer .row .col .about 
+{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    width: 90%;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+.footer .row .col .h3 
+{
+    color: #e91e63;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.footer .row .col .social 
+{
+    width: 100%;
+    display: flex;
+    margin-top: -30px;
+    justify-content: right;
+   
+    
+}
+.footer .row .col .social .soc1
+{
+   flex-basis: 10px;
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px;
+}
+.footer .row .col .social .soc1 img 
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    margin-top: -10px;
+}
